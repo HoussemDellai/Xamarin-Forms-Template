@@ -9,7 +9,7 @@
             <Label x:Name="HeaderLabel"
                    FontSize="22" />
             <ContentView x:Name="BodyContent"
-                         VerticalOptions="Fill" />
+                         VerticalOptions="FillAndExpand" />
             <ContentView x:Name="FooterContent" />
         </StackLayout>
     </ContentView.Content>
