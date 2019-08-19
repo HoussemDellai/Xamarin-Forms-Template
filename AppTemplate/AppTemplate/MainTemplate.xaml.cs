@@ -1,9 +1,7 @@
 ﻿using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace AppTemplate
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
     [ContentProperty("Child")]
     public partial class MainTemplate : ContentView
     {
