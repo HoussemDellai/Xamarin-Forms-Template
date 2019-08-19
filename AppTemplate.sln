@@ -12,9 +12,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTemplate", "AppTemplate\AppTemplate\AppTemplate.csproj", "{22798055-C388-4D7F-8CC0-3E5FB4F4FC1C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{9AC53C26-5FB6-48E6-A485-1BDF2F4381B2}"
-	ProjectSection(SolutionItems) = preProject
-		..\tmp\templates.png = ..\tmp\templates.png
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
