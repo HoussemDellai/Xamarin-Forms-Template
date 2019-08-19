@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:appTemplate="clr-namespace:AppTemplate;assembly=AppTemplate"
+             x:Class="AppTemplate.MainPage">
+
+    <appTemplate:MainTemplate PageTitle="Login page">
+
+        <appTemplate:MainTemplate.Body>
+            <StackLayout>
+                <Entry Placeholder="email" />
+                <Entry Placeholder="password" />
+            </StackLayout>
+        </appTemplate:MainTemplate.Body>
+        <appTemplate:MainTemplate.Footer>
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Cancel" />
+                <Button Text="Login" />
+            </StackLayout>
+        </appTemplate:MainTemplate.Footer>
+    </appTemplate:MainTemplate>
+
+</ContentPage>
